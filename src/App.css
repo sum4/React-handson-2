@@ -1,5 +1,49 @@
 .App {
   text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(#97ddf0,rgb(228, 170, 104),#8ed3e7);
+  
+}
+.lable{
+  font-size: 30px;
+}
+.input{
+  height: 50px;
+  width: 230px;
+  border: 3px solid rgb(13, 13, 143);
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 25px;
+}
+.btn{
+  width: 230px;
+  height: 50px;
+  background-color: #6dd2ed;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: 40px;
+}
+.footer{
+  width: 1200px;
+  background-color: cornflowerblue;
+  border: 5px solid black;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.child{
+  width: 500px;
+  height: 70px;
+  margin: 35px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: darkviolet;
+  line-height: 70px;
 }
 
 .App-logo {
